@@ -1,0 +1,34 @@
+{
+    "JamesRobinsonConsulting": {
+        "en": [
+            "Help small businesses and individuals with web development, creating custom solutions to boost their online presence and efficiency.",
+            "Use my Spanish skills to work with international clients, ensuring smooth communication and high-quality service."
+        ],
+        "es": [
+            "Ayudo a pequeñas empresas y clientes individuales con el desarrollo web, creando soluciones personalizadas para mejorar su presencia en línea y eficiencia.",
+            "Utilizo mis habilidades en español para trabajar con clientes internacionales, asegurando una comunicación fluida y un servicio de alta calidad."
+        ]
+    },
+    "Deloitte": {
+        "en": [
+            "Lead the development of a web app using React and FastAPI, enhancing user interaction with a chatbot powered by LLaMa2.",
+            "Work with top clients, including a major social media platform and a leading telecom company, to improve user experience and efficiency.",
+            "Gather client requirements to ensure applications and features meet their strategic goals and add value."
+        ],
+        "es": [
+            "Lidero el desarrollo de una aplicación web utilizando React y FastAPI, mejorando la interacción del usuario con un chatbot alimentado por LLaMa2.",
+            "Trabajo con clientes importantes, incluida una gran plataforma de redes sociales y una compañía líder en telecomunicaciones, para mejorar la experiencia del usuario y la eficiencia.",
+            "Recojo requisitos de los clientes para asegurar que las aplicaciones y funciones cumplan con sus objetivos estratégicos y agreguen valor."
+        ]
+    },
+    "SimpleLTC": {
+        "en": [
+            "Created new web pages to give users easy access to their nursing home’s medical data.",
+            "Optimized the Elasticsearch data reindex process with RabbitMQ for real-time accuracy and efficiency."
+        ],
+        "es": [
+            "Creé nuevas páginas web para dar a los usuarios acceso fácil a los datos médicos de su hogar de ancianos.",
+            "Optimicé el proceso de reindexación de datos de Elasticsearch con RabbitMQ para precisión y eficiencia en tiempo real."
+        ]
+    }
+}
