@@ -27,6 +27,8 @@ const useStyles = makeStyles((theme) => ({
     projectImage: {
         width: '100%',
         height: 'auto',
+        maxHeight: '200px',
+        objectFit: 'cover',
         display: 'block',
         borderRadius: '8px',
         // cursor: 'pointer',

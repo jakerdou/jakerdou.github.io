@@ -101,7 +101,7 @@ function App() {
                   <Switch
                     checked={language === 'es'}
                     onChange={toggleLanguage}
-                    color="secondary"
+                    color="second</Section>ary"
                   />
                 }
                 label={<Box sx={{ fontWeight: language === 'es' ? 'bold' : 'normal' }}>Español</Box>}
@@ -119,7 +119,7 @@ function App() {
                     <Section id="experience" title={language === 'en' ? 'Experience' : 'Experiencia'}>
                       <ExperienceCard 
                         company="Deloitte"
-                        title={{en: "Solutions Engineer", es: "Ingeniero de Soluciones"}}
+                        title={{en: "Consultant - AI & Engineering", es: "Consultor - IA y Ingeniería"}}
                         timeline={{en: "2022 - Present", es: "2022 - Presente"}} 
                         technologies={['React', 'Node.js', 'Express', 'MongoDB']}
                         description={jobDescriptions.Deloitte}
@@ -147,9 +147,27 @@ function App() {
                     </Section>
                     <Section id="projects" title={language === 'en' ? 'Projects' : 'Proyectos'}>
                       <ProjectCard
+                        image="easy-budget.png"
+                        title="EasyBudget"
+                        description={{en: "A budgeting tool that helps you stay on top of your finances and track trends.", es: "Una herramienta de presupuesto que te ayuda a mantenerte al día con tus finanzas y rastrear tendencias."}}
+                        technologies={['React Native', 'FastAPI', 'Google Firebase']}
+                        githubLink='https://github.com/jakerdou/budgeting-app'
+                        link='https://github.com/jakerdou/budgeting-app'
+                        language={language}
+                      />
+                      <ProjectCard
+                        image="easy-habits.jpeg"
+                        title="EasyHabits"
+                        description={{en: "An app that helps you easily track your habits. It's simple, helpful, and keeps you motivated.", es: "Una aplicación que te ayuda a rastrear fácilmente tus hábitos. Es simple, útil y te mantiene motivado."}}
+                        technologies={['Vite', 'Google Firebase', 'AWS']}
+                        githubLink='https://github.com/jakerdou/todo-simple'
+                        link='https://www.jamesdrobinson.com/todo-simple/'
+                        language={language}
+                      />
+                      <ProjectCard
                         image="coibox-login.png"
                         title="Coibox"
-                        description={{en: "An Airbnb competitor in the Dominican Republic", es: "Un competidor de Airbnb en la República Dominicana"}}
+                        description={{en: "An Airbnb competitor in the Dominican Republic.", es: "Un competidor de Airbnb en la República Dominicana."}}
                         technologies={['Next.js', 'MongoDB', 'React']}
                         language={language}
                       />
@@ -162,7 +180,7 @@ function App() {
                         githubLink='https://github.com/jakerdou/apt-dashboard'
                         language={language}
                       />
-                      <ProjectCard
+                      {/* <ProjectCard
                         image="not-pot.png"
                         title="Not Pot"
                         description={{en: "A web app that allows users to upload an image and interface with a machine learning model that will tell them if their image contains marijuana.", es: "Una aplicación web que permite a los usuarios subir una imagen e interactuar con un modelo de aprendizaje automático que les dirá si su imagen contiene marihuana."}}
@@ -170,7 +188,7 @@ function App() {
                         link="https://github.com/jakerdou/not-pot"
                         githubLink='https://github.com/jakerdou/not-pot'
                         language={language}
-                      />
+                      /> */}
                     </Section>
                     <Section id="contact" title={language === 'en' ? 'Contact' : 'Contacto'}>
                       <Contact language={language} />
