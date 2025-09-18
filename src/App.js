@@ -152,7 +152,7 @@ function App() {
                         description={{en: "A budgeting tool that helps you stay on top of your finances and track trends.", es: "Una herramienta de presupuesto que te ayuda a mantenerte al día con tus finanzas y rastrear tendencias."}}
                         technologies={['React Native', 'FastAPI', 'Google Firebase']}
                         githubLink='https://github.com/jakerdou/budgeting-app'
-                        link='https://github.com/jakerdou/budgeting-app'
+                        link='https://easy-budget.expo.app'
                         language={language}
                       />
                       <ProjectCard
