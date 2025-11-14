@@ -133,7 +133,7 @@ useEffect(() => {
     <Box className={classes.root}>
       <Avatar
         alt="James Robinson"
-        src="headshot.jpg"
+        src="headshot_new_background_resize.png"
         className={classes.avatar}
       />
       <Typography variant="h4" className={classes.name}>James Robinson</Typography>
