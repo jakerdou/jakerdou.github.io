@@ -165,13 +165,6 @@ function App() {
                         language={language}
                       />
                       <ProjectCard
-                        image="coibox-login.png"
-                        title="Coibox"
-                        description={{en: "An Airbnb competitor in the Dominican Republic.", es: "Un competidor de Airbnb en la República Dominicana."}}
-                        technologies={['Next.js', 'MongoDB', 'React']}
-                        language={language}
-                      />
-                      <ProjectCard
                         image="apt-dashboard.png"
                         title="Apartment Dashboard"
                         description={{en: "A display for my apartment that shows relevant information like New York train times, weather, etc.", es: "Un tablero para mi apartamento que muestra información relevante como los horarios de los trenes de Nueva York, el clima, etc."}}
