@@ -113,7 +113,7 @@ const Contact = ({ language }) => {
 
     const translations = {
         en: {
-            emailText: "Feel free to email me at hem.adtigo@gmail.com or fill out the form below",
+            emailText: "Feel free to email me at james@jamesdrobinson.com or fill out the form below",
             name: "Name",
             email: "Email",
             phone: "Phone Number",
@@ -121,7 +121,7 @@ const Contact = ({ language }) => {
             send: "Send"
         },
         es: {
-            emailText: "No dudes en enviarme un correo electrónico a hem.adtigo@gmail.com o completa el formulario a continuación",
+            emailText: "No dudes en enviarme un correo electrónico a james@jamesdrobinson.com o completa el formulario a continuación",
             name: "Nombre",
             email: "Correo Electrónico",
             phone: "Número de Teléfono",
