@@ -1,4 +1,14 @@
 {
+    "Dropbox": {
+        "en": [
+            "Build AI powered features into the core Dropbox product as part of the BFD team, bridging file sync/store and Dash.",
+            "Develop and integrate intelligent capabilities that enhance how users interact with their files and content."
+        ],
+        "es": [
+            "Desarrollo funciones impulsadas por IA en el producto principal de Dropbox como parte del equipo BFD, conectando la sincronización/almacenamiento de archivos y Dash.",
+            "Desarrollo e integro capacidades inteligentes que mejoran la forma en que los usuarios interactúan con sus archivos y contenido."
+        ]
+    },
     "JamesRobinsonConsulting": {
         "en": [
             "Help small businesses and individuals with web development, creating custom solutions to boost their online presence and efficiency.",

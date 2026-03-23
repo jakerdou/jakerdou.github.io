@@ -118,15 +118,24 @@ function App() {
                     </Section>
                     <Section id="experience" title={language === 'en' ? 'Experience' : 'Experiencia'}>
                       <ExperienceCard 
+                        company="Dropbox"
+                        title={{en: "Software Engineer", es: "Ingeniero de Software"}}
+                        timeline={{en: "2026 - Present", es: "2026 - Presente"}} 
+                        technologies={['React', 'Python', 'AI/ML']}
+                        description={jobDescriptions.Dropbox}
+                        link='https://www.dropbox.com'
+                        language={language}
+                      />
+                      <ExperienceCard 
                         company="Deloitte"
                         title={{en: "Consultant - AI & Engineering", es: "Consultor - IA y Ingeniería"}}
-                        timeline={{en: "2022 - Present", es: "2022 - Presente"}} 
+                        timeline={{en: "2022 - 2026", es: "2022 - 2026"}} 
                         technologies={['React', 'Node.js', 'Express', 'MongoDB']}
                         description={jobDescriptions.Deloitte}
                         link='https://www2.deloitte.com/us/en.html'
                         language={language}
                       />
-                      <ExperienceCard 
+                      {/* <ExperienceCard 
                         company="James Robinson Consulting"
                         title={{en: "Owner, CEO", es: "Propietario, CEO"}}
                         timeline={{en: "2020 - 2022", es: "2020 - 2022"}} 
@@ -134,7 +143,7 @@ function App() {
                         description={jobDescriptions.JamesRobinsonConsulting}
                         link='https://jamesrobinsonconsulting.com'
                         language={language}
-                      />
+                      /> */}
                       <ExperienceCard 
                         company="SimpleLTC"
                         title={{en: "Sofware Engineer", es: "Ingeniero de Software"}}
